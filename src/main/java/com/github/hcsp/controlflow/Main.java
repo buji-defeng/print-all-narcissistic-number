@@ -18,7 +18,7 @@ public class Main {
             int b = (i % 100) / 10;
             int c = (i % 1000) /100;
             if (Math.pow(a,3) + Math.pow(b,3) + Math.pow(c,3) == i){
-                System.out.println(i);
+                System.out.println(i) ;
             }
         }
     }
